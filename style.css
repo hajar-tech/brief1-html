@@ -61,7 +61,7 @@ img.first-img{
    height: 82%;
    margin-left: 50px;
 }
-/*section.why{
+section.why{
     margin:0px 100px;
 }
 section h4{
@@ -77,16 +77,14 @@ margin-bottom: 20px;
 } 
 main p{
     font-size: small;
-}
-main div.a{
-    margin-left: 20px;
+    margin-right: 20px;
 }
 footer{
     margin: 70px 100px;
     background-color:#FDF0EA ;
     padding:3% 5%;
     border-radius: 10px;
-}*/
+}
 
 
 
