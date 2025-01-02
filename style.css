@@ -34,7 +34,7 @@ img.logo{
     height: 30px;
 }
 
-/*section.us{
+section.us{
     display: inline-flex;
     margin:100px 100px 10px 100px;   
 }
@@ -61,7 +61,7 @@ img.first-img{
    height: 82%;
    margin-left: 50px;
 }
-section.why{
+/*section.why{
     margin:0px 100px;
 }
 section h4{
