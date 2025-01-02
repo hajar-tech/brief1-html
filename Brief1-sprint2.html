@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbare">
-        <img src="images/ImageBrief1S2/Logo.svg-removebg-preview.png" alt="" srcset="">
+        <img   class="logo" src="images/ImageBrief1S2/Logo.svg-removebg-preview.png" alt="logo" >
         <ul class="li">
             <li>Destinations</li>
             <li>Activities</li>
@@ -15,26 +16,27 @@
             <li>Créer un compte</li>
         </ul>
         
-        <button>Se connecter</button>
+        <button id="btn1">Se connecter</button>
     </nav>
     <section class="us">
         <div class="gauche">
-            <h1>Des Souvenires De <br/>
+            <h1 id="titre">Des Souvenires De <br/>
                 Voyage Que Vous <br/>
-                N’oublierez Jamais.</h1>
-            <p>
+                N’oublierez <samp id="jm">Jamais</samp>.</h1>
+            <p class="first-para">
                 Des escapades locales aux aventures lointaine, trouvez ce qui vous <br/>
                 rend heureux n’importe quand n’importe où.
             </p>
-            <button>Explorer plus</button>
+            <button id="btn2">Explorer plus</button>
         </div>
         <div class="droite">
-            <img src="images/ImageBrief1S2/image1-brief4.png" alt="" srcset="">
+            <img class="first-img" src="images/ImageBrief1S2/image1-brief4.png" alt="image-taveling">
         </div>
     </section>
-    <section class="why-us">
+    <section class="why" >
         <h4>Pourquoi nous?</h4>
-        <div class="1">
+        <main class="why-us">
+        <div class="b">
             <img src="images/ImageBrief1S2/ticket.svg-brief1-S2.webp" alt="">
             <h6>Flexibilité ultime</h6>
             <p>Vous avez le contrôle,avec gratuité<br/>
@@ -42,7 +44,7 @@
                 satisfaire n’importe quel plan ou budget</p>
 
             </div>
-        <div class="2">
+        <div class="a">
             <img src="images/ImageBrief1S2/hot-air-balloon.svg-brief1-S2.webp" alt="">
             <h6>Flexibilité ultime</h6>
             <p>Parcourez et réservez des visites et des<br/>
@@ -50,14 +52,14 @@
                 le dire à ton amis.</p>
 
             </div>
-        <div class="3">
+        <div class="a">
             <img src="images/ImageBrief1S2/diamond.svg-brief1-S2.webp" alt="">
             <h6>Flexibilité ultime</h6>
             <p>Normes de haute qualité. Des molions de<br/>
                 Commentaires. </p>
 
             </div>
-        <div class="4">
+        <div class="a">
             <img src="images/ImageBrief1S2/medal.svg-brief1-S2.webp" alt="">
             <h6>Flexibilité ultime</h6>
             <p>Nouveau prix? Nouveau plan? Aucun<br/>
@@ -65,10 +67,11 @@
                 aider, 24/24 et 7/7.</p>
 
             </div>
+        </main>
     </section>
     <footer>
         <h5>Contact</h5>
-        <p>N 433 Immeubles 3 Rue Zohoue, Béni Mellel<br/>
+        <p>N 433 Immeubles 3 Rue Zohoue, Béni Mellel<br/><br/>
 
             contact @viatous.com</p>
     </footer>
